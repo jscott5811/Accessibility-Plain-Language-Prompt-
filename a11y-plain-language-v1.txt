@@ -35,7 +35,6 @@ To prevent visual fatigue and support reading flow:
 - **Alignment:** Always **left-align** text. Never justify text.
 - **Spacing:** Use `{spacing.paragraph-gap}` between sections.
 - **Easy Read Constraints:** Maximum of `{spacing.easy-read-max-paragraphs}` paragraphs per page.
-- **Topic Breaks:** Start every new topic on a new page.
 - **Safety:** Avoid runts, orphans, and widows.
 
 ## Do's and Don'ts
