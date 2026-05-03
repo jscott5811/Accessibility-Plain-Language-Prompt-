@@ -1,12 +1,12 @@
 # Accessibility and Plain Language Prompt Toolkit
 
-This repository contains a specialized system prompt designed to transform complex information into accessible content. It follows the standards established by the **Autistic Self Advocacy Network (ASAN)** in their guide, *One Idea Per Line: A Guide to Making Easy Read Resources*.
+This repository contains a specialized system prompt designed to transform complex information into accessible content. It follows the standards established by the **Autistic Self Advocacy Network [...]
 
 ## Overview
 
 Accessibility in writing is a civil right. This toolkit provides instructions for generating two distinct levels of accessible content:
 1. **Plain Language (Primary):** Clear, direct communication for a general audience (6th–8th grade reading level).
-2. **Easy Read (Alternative):** Highly structured communication for people with intellectual and developmental disabilities (IDD), focusing on literal meaning and visual anchors (3rd–5th grade reading level).
+2. **Easy Read (Alternative):** Highly structured communication for people with intellectual and developmental disabilities (IDD), focusing on literal meaning and visual anchors (3rd–5th grade re[...]
 
 ## Prompt Features
 
@@ -36,13 +36,21 @@ The prompt includes strict layout rules to prevent "walls of text":
 
 ## Validation
 
-The provided prompt is optimized for compatibility with `@google/design.md`. To ensure your generated content or the prompt itself remains consistent with these standards, use the following linting tool:
+The provided prompt is optimized for compatibility with `@google/design.md`. To ensure your generated content or the prompt itself remains consistent with these standards, use the following lintin[...]
 
 ```bash
 # Install and run the linter on your markdown files
 npx @google/design.md lint YOUR_FILE.md
+```
 
 ## Credits
 
-This prompt was developed based on the accessibility research and standards provided by the Autistic Self Advocacy Network (ASAN) One Idea Per Line: A Guide to Making Easy Read Resources
-and the @google/design.md documentation style guides used for high-clarity technical design.
+This project was developed using guidance from the following resources and contributors:
+
+- Autistic Self Advocacy Network (ASAN) — "One Idea Per Line: A Guide to Making Easy Read Resources" (principles adapted to inform the Easy Read standards used here).
+- google/design.md — the Google Design Markdown style guides for clear, high-clarity technical writing and formatting.
+
+Contributors:
+- jscott5811 (repository owner and primary author)
+
+If you adapted or reused material from other sources, please add them here with proper attribution and links. If you would like me to add exact links and license attributions for ASAN or google/design.md, tell me which URLs or licenses you'd prefer and I will add them.
