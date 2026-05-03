@@ -1,4 +1,4 @@
-# Release notes — draft
+# Release notes —
 
 Tag: v1.0.0
 
