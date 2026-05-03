@@ -26,6 +26,21 @@ This prompt is compatible with plain-markdown workflows and was prepared with pr
 - examples/ — Example inputs and outputs
 ---
 name: Accessibility & Plain Language Prompt Toolkit
+typography:
+  body-md:
+    fontFamily: Open Sans
+    fontSize: 18.67px
+    lineHeight: 30.67px
+    fontWeight: "400"
+  body-lg:
+    fontFamily: Open Sans
+    fontSize: 24px
+    lineHeight: 37.33px
+    fontWeight: "400"
+spacing:
+  paragraph-gap: 24px
+  easy-read-max-paragraphs: "5"
+---
 
 ## Typography
 
