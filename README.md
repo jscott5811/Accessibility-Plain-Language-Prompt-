@@ -43,7 +43,8 @@ The provided prompt is optimized for compatibility with `@google/design.md`. To 
 npx @google/design.md lint YOUR_FILE.md
 ```
 
-## Credits
+
+## About & Credits
 
 This project was developed using guidance from the following resources and contributors:
 
