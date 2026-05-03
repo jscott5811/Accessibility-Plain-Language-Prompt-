@@ -2,8 +2,6 @@
 
 A toolkit for producing accessible content by translating complex text into two clear formats: Plain Language and Easy Read. Designed to help writers, editors, and AI systems produce materials that are easier to understand on the first read.
 
-Status: Draft (private repository). See the "Publishing" section below for steps to publish this project publicly or as a website.
-
 ## Overview
 
 Accessibility in writing is a civil right. This toolkit defines standards and a reusable system prompt that converts dense or technical text into accessible, reader-centered content.
@@ -18,10 +16,8 @@ This prompt is compatible with plain-markdown workflows and was prepared with pr
 ## What's in this repository
 
 - a11y-plain-language-v1.txt — The system prompt file (copy this into the "System Instructions" or your LLM's custom instruction area).
-- README.md — This file (completed and expanded).
-- (Optionally) examples/ — Example inputs and outputs (add examples here to demonstrate the prompt).
-
-If you don't see some of these files yet, you can add them to the repository to make adoption easier.
+- README.md — This file 
+- examples/ — Example inputs and outputs
 
 ## How to use
 
