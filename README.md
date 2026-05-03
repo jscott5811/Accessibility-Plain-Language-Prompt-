@@ -75,40 +75,6 @@ This README recommends validating markdown using google/design.md lint rules whe
 # Install and run the linter on your markdown files
 npx @google/design.md lint YOUR_FILE.md
 ```
-
-Add example-based tests or human-review checklists in `examples/` to ensure the prompt produces the desired outputs.
-
-## Publishing
-
-Below are common options for "publishing" this project. Tell me which you'd like me to do and I can perform the action for you (I can modify repo settings, enable Pages, create a release, or add common repository files). I will ask for explicit confirmation before changing repository visibility.
-
-Option A — Make the repository public
-- Go to: Settings → General → Change repository visibility → Make public.
-- After making it public, others can discover and fork the project.
-
-Option B — Publish a documentation site with GitHub Pages
-- Create a `docs/` folder or use the repository root. Add an index.md (or use README as the site home).
-- In the repo settings -> Pages: choose branch `main` and folder `/ (root)` or `/docs` and save.
-- GitHub will build a site at `https://<your-username>.github.io/<repo-name>/` after a few minutes.
-
-Option C — Create a Release and tag
-- In the GitHub UI: Releases → Draft a new release. Choose a tag (v1.0.0) and add release notes describing the prompt and usage.
-- Or use the GitHub CLI: `gh release create v1.0.0 --title "v1.0.0" --notes "Initial public release: Plain Language + Easy Read prompt"`
-
-Option D — Add a license and contributing guidelines (recommended)
-- Add LICENSE (e.g., CC-BY-4.0 for content or MIT for code). Example: `npx license mit "Your Name"` or add a LICENSE file manually.
-- Add CONTRIBUTING.md with review guidance and a CODE_OF_CONDUCT.md to set community expectations.
-
-If you want, I can:
-- Make the repo public (I will ask for confirmation first).
-- Enable GitHub Pages and create a basic index page for the docs site.
-- Draft a release (tag + release notes).
-- Add a LICENSE and CONTRIBUTING.md with recommended contents.
-
-Which of the publishing options above would you like me to do now? If you want me to proceed with one of them, confirm which option and whether I should:
-- Make the repo public (yes/no)
-- Which license to add (suggestions: CC-BY-4.0 for content, MIT for code)
-
 ## About & Credits
 
 This project adapted principles from:
@@ -124,11 +90,6 @@ Contributions are welcome. Suggested first steps:
 - Open an issue describing the change.
 - Add examples (in `examples/`) showing before/after inputs and outputs.
 - If you add files, include tests or a short review checklist.
-
-## License
-
-No license file is included in this repository yet. Add a license to make reuse permissions explicit. If you'd like, I can add a recommended license for you.
-
 ---
 
 If you'd like me to proceed with publishing actions (make public, enable Pages, create release, add license), tell me which options to perform and confirm whether I should change repository visibility to public. If you're unsure, tell me what outcome you want ("make a website", "share this with colleagues", "release v1") and I will recommend the exact steps and can perform them on your confirmation.
