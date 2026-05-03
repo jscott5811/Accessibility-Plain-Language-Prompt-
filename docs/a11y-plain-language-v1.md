@@ -2,6 +2,8 @@
 title: "a11y-plain-language-v1 — Accessibility & Plain Language"
 ---
 
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jscott5811/Accessibility-Plain-Language-Prompt-/main/docs/assets/open-sans.css">
+
 # a11y-plain-language-v1.txt
 
 This page publishes the repository's system prompt file so it is viewable on GitHub Pages.
@@ -82,5 +84,4 @@ To prevent visual fatigue and support reading flow:
 | **Visuals** | Clean layout, optional images | One literal icon per sentence |
 | **POV** | Second person ("You") | Third-person ("Jim") |
 | **Sentence Length** | Short & direct (10–15 words) | One idea per line |
-| **Font Size** | 14pt (body-md) | 18pt (body-lg) |
 ```

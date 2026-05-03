@@ -1,6 +1,12 @@
+---
+name: Accessibility & Plain Language
+---
+
+<link rel="stylesheet" href="https://raw.githubusercontent.com/jscott5811/Accessibility-Plain-Language-Prompt-/main/docs/assets/open-sans.css">
+
 # Accessibility and Plain Language Prompt Toolkit
 
-A toolkit for producing accessible content by translating complex text into two clear formats: Plain Language and Easy Read. Designed to help writers, editors, and AI systems produce materials that are easier to understand on the first read.
+A toolkit for producing accessible content by translating complex text into two clear formats: Plain Language and Easy Read. Designed to help writers, editors, and AI systems produce materials that[...] 
 
 ## Overview
 
@@ -9,7 +15,7 @@ Accessibility in writing is a civil right. This toolkit defines standards and a 
 Two levels of output are supported:
 
 1. Plain Language (Primary): Clear, direct communication for a general audience (approx. 6th–8th grade reading level). Suitable for general documentation, product copy, and user instructions.
-2. Easy Read (Alternative): Highly structured communication for people with intellectual and developmental disabilities (IDD). Focuses on literal meaning, short sentences, visual anchors, and a "Words to Know" glossary (approx. 3rd–5th grade reading level).
+2. Easy Read (Alternative): Highly structured communication for people with intellectual and developmental disabilities (IDD). Focuses on literal meaning, short sentences, visual anchors, and a "W[...]
 
 This prompt is compatible with plain-markdown workflows and was prepared with principles from ASAN and the google/design.md guidance in mind.
 
@@ -55,7 +61,6 @@ To prevent visual fatigue and support reading flow:
 
 ### 1. For AI Systems
 Copy the content of `a11y-plain-language-v1.txt` into your model's system instructions. 
-Specify the desired output format in your prompt: *"Rewrite the following in Plain Language"* or *"Translate this to Easy Read."*
 
 ### 2. For Manual Writing
 Use the rules in this document as a checklist. Focus on the active voice and the "Words to Know" glossary for any technical concepts.
