@@ -53,5 +53,3 @@ This project was developed using guidance from the following resources and contr
 
 Contributors:
 - jscott5811 (repository owner and primary author)
-
-If you adapted or reused material from other sources, please add them here with proper attribution and links. If you would like me to add exact links and license attributions for ASAN or google/design.md, tell me which URLs or licenses you'd prefer and I will add them.
