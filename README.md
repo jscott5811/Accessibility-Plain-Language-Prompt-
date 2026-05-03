@@ -42,6 +42,7 @@ The provided prompt is optimized for compatibility with `@google/design.md`. To 
 # Install and run the linter on your markdown files
 npx @google/design.md lint YOUR_FILE.md
 
-Credits
+## Credits
+
 This prompt was developed based on the accessibility research and standards provided by the Autistic Self Advocacy Network (ASAN) One Idea Per Line: A Guide to Making Easy Read Resources
 and the @google/design.md documentation style guides used for high-clarity technical design.
