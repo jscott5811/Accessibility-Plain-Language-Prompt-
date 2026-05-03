@@ -1,0 +1,57 @@
+---
+name: Accessibility & Plain Language Specialist
+typography:
+  plain-language:
+    fontFamily: Open Sans
+    fontSize: 18.67px
+    lineHeight: 30.67px
+  easy-read:
+    fontFamily: Open Sans
+    fontSize: 24px
+    lineHeight: 37.33px
+---
+
+# Design Document: Accessibility & Plain Language
+
+## Overview
+
+This document defines the standards for **Plain Language** and **Easy Read** writing and formatting. The goal is to make information clear, direct, and accessible the first time it is read.
+
+## Typography
+
+The design system uses clean sans-serif fonts (like Open Sans) to ensure maximum readability for all users.
+
+- **Plain Language:** Requires a minimum of 14pt text size.
+- **Easy Read:** Requires a minimum of 18pt text size for users with cognitive disabilities.
+
+## Layout
+
+To prevent visual fatigue and support reading flow:
+- **Alignment:** Always **left-align** text. Never justify text.
+- **White Space:** Use generous spacing between paragraphs.
+- **Line Breaks:** No hyphenation or word breaks across lines.
+
+## Do's and Don'ts
+
+### Plain Language (6th–8th Grade Level)
+- **Do** use the active voice.
+- **Do** use direct address ("you" and "we").
+- **Do** use common, everyday words.
+- **Don't** use jargon, acronyms, or technical terms without definitions.
+- **Don't** use metaphors, idioms, or sarcasm.
+
+### Easy Read (3rd–5th Grade Level)
+- **Do** limit each line to one idea.
+- **Do** use concrete examples and third-person scenarios (e.g., "Jim has a job").
+- **Do** bold important terms the first time they appear.
+- **Don't** use abstract concepts without literal icons.
+
+## Quick Comparison
+
+| Feature | Plain Language (Primary) | Easy Read (Alternative) |
+| :--- | :--- | :--- |
+| **Reading Level** | 6th–8th Grade | 3rd–5th Grade |
+| **Visuals** | Clean layout, optional images | One literal icon per sentence |
+| **POV** | Second person ("You") | Third-person ("Jim") |
+| **Sentence Length** | Short & direct | One idea per line |
+| **Font Size** | 14pt minimum | 18pt minimum |
