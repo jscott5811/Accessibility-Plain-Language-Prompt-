@@ -18,59 +18,74 @@ This prompt is compatible with plain-markdown workflows and was prepared with pr
 - a11y-plain-language-v1.txt — The system prompt file (copy this into the "System Instructions" or your LLM's custom instruction area).
 - README.md — This file 
 - examples/ — Example inputs and outputs
+---
+name: Accessibility & Plain Language Prompt Toolkit
+typography:
+  body-md:
+    fontFamily: Open Sans
+    fontSize: 18.67px
+    lineHeight: 30.67px
+    fontWeight: "400"
+  body-lg:
+    fontFamily: Open Sans
+    fontSize: 24px
+    lineHeight: 37.33px
+    fontWeight: "400"
+spacing:
+  paragraph-gap: 24px
+  easy-read-max-paragraphs: "5"
+---
 
-## How to use
+## Typography
 
-1. For AI systems
-   - Open `a11y-plain-language-v1.txt` and copy its content into your model's system instructions or custom instructions field.
-   - Provide the model with the source text and specify which output you want: "Plain Language" or "Easy Read". Example instruction to the model: "Translate the following into Plain Language" or "Rewrite this in Easy Read format."
+The toolkit prescribes clean sans-serif fonts (like Open Sans) for all outputs to ensure maximum legibility.
 
-2. For manual writing
-   - Use the prompt rules as a checklist while drafting. Key rules: use active voice, keep sentences short, put the main point first, avoid jargon, and include a "Words to Know" section for new terms.
+- **body-md (Plain Language):** Optimized for 14pt/23pt leading equivalent.
+- **body-lg (Easy Read):** Optimized for 18pt/28pt leading equivalent.
 
-3. For translating existing documents
-   - Run your source text through the prompt to produce a first draft. Then have a human reviewer — preferably someone with accessibility expertise or lived experience — review for accuracy, tone, and cultural appropriateness.
+## Layout & Spacing
 
-### Example
+To prevent visual fatigue and support reading flow:
+- **Alignment:** Always **left-align** text. Never justify text.
+- **Spacing:** Maintain a consistent `{spacing.paragraph-gap}` between content blocks.
+- **Page Limits (Easy Read):** Limit to a maximum of `{spacing.easy-read-max-paragraphs}` paragraphs per page to maintain focus.
+- **Visual Anchors:** In Easy Read, every sentence or paragraph should have a literal visual anchor/icon.
 
-Input (short):
-"The deadline to submit your application has been moved to Friday, June 25. Late submissions will not be considered."
+## Do's and Don'ts
 
-Plain Language output (example):
-"The new deadline to send your application is Friday, June 25. We will not accept any applications sent after that date."
+### Writing Style (General)
+- **Do** use the active voice (who does what).
+- **Do** use direct address ("you", "we") where appropriate.
+- **Do** put the most important information first.
+- **Don't** use jargon, acronyms, or technical terms without a "Words to Know" definition.
+- **Don't** use metaphors, idioms, or abstract sarcasm.
 
-Easy Read output (example):
-- The deadline to send your application is Friday, June 25.
-- We will not accept applications after that date.
+### Formatting (Easy Read)
+- **Do** limit each line to one idea.
+- **Do** use concrete examples in the third person (e.g., "Sam clicks the button").
+- **Do** bold important terms the first time they appear.
+- **Don't** exceed 15 words per sentence for high-accessibility contexts.
 
-## Prompt features and standards
+## How to Use
 
-Plain Language standards
-- Active voice (who does what).
-- Direct address when appropriate ("you", "we").
-- Short paragraphs and sentences; aim for 12–18 words per sentence.
-- Avoid jargon and explain necessary technical terms.
+### 1. For AI Systems
+Copy the content of `a11y-plain-language-v1.txt` into your model's system instructions. 
+Specify the desired output format in your prompt: *"Rewrite the following in Plain Language"* or *"Translate this to Easy Read."*
 
-Easy Read standards
-- One idea per line.
-- Short sentences (1 idea = 1 sentence where possible).
-- Use concrete examples in the third person (e.g., "Sam clicks the button").
-- Include visual anchors / icon suggestions when helpful.
-- Bold new or important words; provide a "Words to Know" glossary.
+### 2. For Manual Writing
+Use the rules in this document as a checklist. Focus on the active voice and the "Words to Know" glossary for any technical concepts.
 
-Design and formatting
-- Use clear headings and bulleted lists.
-- Use sans-serif fonts in final formatted outputs (Open Sans recommended).
-- Avoid walls of text: in Easy Read, limit to 5 short paragraphs per page where possible.
-
-## Validation and tooling
-
-This README recommends validating markdown using google/design.md lint rules where appropriate.
+### 3. Validation
+Validate your documentation for style and consistency using the following command:
 
 ```bash
-# Install and run the linter on your markdown files
-npx @google/design.md lint YOUR_FILE.md
+npx @google/design.md lint DESIGN.md
 ```
+
+## Contributing
+
+Contributions are welcome. Please open an issue describing your proposed changes and include examples in the `examples/` directory showing before/after results.
+
 ## About & Credits
 
 This project adapted principles from:
