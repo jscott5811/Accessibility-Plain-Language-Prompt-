@@ -1,14 +1,19 @@
 ---
 name: Accessibility & Plain Language Specialist
 typography:
-  plain-language:
+  body-md:
     fontFamily: Open Sans
     fontSize: 18.67px
     lineHeight: 30.67px
-  easy-read:
+    fontWeight: "400"
+  body-lg:
     fontFamily: Open Sans
     fontSize: 24px
     lineHeight: 37.33px
+    fontWeight: "400"
+spacing:
+  paragraph-gap: 24px
+  easy-read-max-paragraphs: "5"
 ---
 
 # Design Document: Accessibility & Plain Language
@@ -19,52 +24,42 @@ This document defines the standards for **Plain Language** and **Easy Read** wri
 
 ## Typography
 
-The design system uses clean sans-serif fonts (like Open Sans) to ensure maximum readability for all users.
+The design system uses clean sans-serif fonts to ensure maximum readability.
 
-- **Plain Language:** Requires a minimum of 14pt text size.
-- **Easy Read:** Requires a minimum of 18pt text size for users with cognitive disabilities.
+- **body-md (Plain Language):** Target a 6th–8th grade reading level.
+- **body-lg (Easy Read):** Target a 3rd–5th grade reading level for users with cognitive disabilities.
 
-### Typography (detailed rules)
-
-- Use a clean sans-serif font such as **Open Sans**.
-- Plain Language (body-md): Use 14pt text with 23pt leading.
-- Easy Read (body-lg): Use 18pt text with 28pt leading.
-
-## Layout
+## Layout & Spacing
 
 To prevent visual fatigue and support reading flow:
 - **Alignment:** Always **left-align** text. Never justify text.
-- **White Space:** Use generous spacing between paragraphs.
-- **Line Breaks:** No hyphenation or word breaks across lines.
-- **White space (Easy Read):** Use a maximum of 5 paragraphs per page for Easy Read.
+- **Spacing:** Use `{spacing.paragraph-gap}` between sections.
+- **Easy Read Constraints:** Maximum of `{spacing.easy-read-max-paragraphs}` paragraphs per page.
 - **Topic Breaks:** Start every new topic on a new page.
 - **Safety:** Avoid runts, orphans, and widows.
 
-## Sentence and Punctuation Rules
-
-- **Sentence Length:** Sentences should stay between **10 and 15 words**.
-- **Bullet Point Punctuation:** Bulleted items should start with a capital letter. Do not add a period at the end of bullet items unless the bullet is a full sentence.
-
 ## Do's and Don'ts
 
-### Plain Language (6th–8th Grade Level)
+### Writing Style (Plain Language)
 - **Do** use the active voice.
 - **Do** use direct address ("you" and "we").
 - **Do** use common, everyday words.
+- **Do** keep sentences between 10 and 15 words.
 - **Don't** use jargon, acronyms, or technical terms without definitions.
 - **Don't** use metaphors, idioms, or sarcasm.
 
-### Easy Read (3rd–5th Grade Level)
+### Writing Style (Easy Read)
 - **Do** limit each line to one idea.
 - **Do** use concrete examples and third-person scenarios (e.g., "Jim has a job").
 - **Do** bold important terms the first time they appear.
 - **Don't** use abstract concepts without literal icons.
 
-## Visual Icons
-
-- Provide one clear, literal icon per sentence or paragraph where helpful.
-- **Diversity:** Ensure icons depict diverse people, including different races and genders.
-- **Literal Meaning:** Icons must be literal and avoid metaphors; they should directly represent the action or object described.
+### Punctuation & Icons
+- **Do** start bulleted items with a capital letter.
+- **Do** provide one clear, literal icon per sentence where helpful.
+- **Do** ensure icons depict diverse people (race and gender).
+- **Don't** add a period at the end of a bullet unless it is a full sentence.
+- **Don't** use metaphorical icons; they must directly represent the action.
 
 ## Quick Comparison
 
@@ -74,5 +69,4 @@ To prevent visual fatigue and support reading flow:
 | **Visuals** | Clean layout, optional images | One literal icon per sentence |
 | **POV** | Second person ("You") | Third-person ("Jim") |
 | **Sentence Length** | Short & direct (10–15 words) | One idea per line |
-| **Font Size** | 14pt minimum (body-md: 14pt / 23pt leading) | 18pt minimum (body-lg: 18pt / 28pt leading) |
-
+| **Font Size** | 14pt (body-md) | 18pt (body-lg) |
