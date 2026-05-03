@@ -91,5 +91,3 @@ Contributions are welcome. Suggested first steps:
 - Add examples (in `examples/`) showing before/after inputs and outputs.
 - If you add files, include tests or a short review checklist.
 ---
-
-If you'd like me to proceed with publishing actions (make public, enable Pages, create release, add license), tell me which options to perform and confirm whether I should change repository visibility to public. If you're unsure, tell me what outcome you want ("make a website", "share this with colleagues", "release v1") and I will recommend the exact steps and can perform them on your confirmation.
