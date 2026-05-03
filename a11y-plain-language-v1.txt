@@ -50,6 +50,7 @@ To prevent visual fatigue and support reading flow:
 ### Writing Style (Easy Read)
 - **Do** limit each line to one idea.
 - **Do** use concrete examples and third-person scenarios (e.g., "Jim has a job").
+- **Topic Breaks:** Start every new topic on a new page (optional).
 - **Do** bold important terms the first time they appear.
 - **Don't** use abstract concepts without literal icons.
 
