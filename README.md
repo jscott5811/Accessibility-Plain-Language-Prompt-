@@ -59,7 +59,7 @@ To prevent visual fatigue and support a clear reading flow:
 ## How to Use
 
 ### 1. For AI Systems
-Copy the content of `a11y-plain-language-v1.txt` into your model's system instructions. When calling the model, specify the desired output format in your prompt:
+Copy the content of `a11y-plain-language-v1.md` into your model's system instructions. When calling the model, specify the desired output format in your prompt:
 - "Rewrite the following in Plain Language"
 - "Translate this to Easy Read"
 
