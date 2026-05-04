@@ -15,7 +15,7 @@ This prompt is compatible with plain-markdown workflows and was prepared with pr
 
 ## What's in this repository
 
-- a11y-plain-language-v1.txt — The system prompt file (copy this into the "System Instructions" or your LLM's custom instruction area).
+- [a11y-plain-language-v1.txt](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/7b7596f22c8dce22a69bfc71b7caa772664ff021/a11y-plain-language-v1.txt) — The system prompt file (copy this into the "System Instructions" or your LLM's custom instruction area).
 - README.md — This file 
 - examples/ — Example inputs and outputs
 ---
