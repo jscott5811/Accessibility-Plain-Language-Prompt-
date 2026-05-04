@@ -1,19 +1,20 @@
 ---
+version: alpha
 name: Accessibility & Plain Language Specialist
 typography:
   body-md:
     fontFamily: Open Sans
     fontSize: 18.67px
     lineHeight: 30.67px
-    fontWeight: "400"
+    fontWeight: 400
   body-lg:
     fontFamily: Open Sans
     fontSize: 24px
     lineHeight: 37.33px
-    fontWeight: "400"
+    fontWeight: 400
 spacing:
   paragraph-gap: 24px
-  easy-read-max-paragraphs: "5"
+  easy-read-max-paragraphs: 5
 ---
 
 # Design Document: Accessibility & Plain Language
@@ -26,12 +27,13 @@ This document defines the standards for **Plain Language** and **Easy Read** wri
 
 The design system uses clean sans-serif fonts to ensure maximum readability.
 
-- **body-md (Plain Language):** Target a 6th–8th grade reading level.
+- **body-md (Plain Language):** Target a 6th–8th grade reading level. 
 - **body-lg (Easy Read):** Target a 3rd–5th grade reading level for users with cognitive disabilities.
 
 ## Layout & Spacing
 
 To prevent visual fatigue and support reading flow:
+
 - **Alignment:** Always **left-align** text. Never justify text.
 - **Spacing:** Use `{spacing.paragraph-gap}` between sections.
 - **Easy Read Constraints:** Maximum of `{spacing.easy-read-max-paragraphs}` paragraphs per page.
@@ -69,4 +71,4 @@ To prevent visual fatigue and support reading flow:
 | **Visuals** | Clean layout, optional images | One literal icon per sentence |
 | **POV** | Second person ("You") | Third-person ("Jim") |
 | **Sentence Length** | Short & direct (10–15 words) | One idea per line |
-| **Font Size** | 14pt (body-md) | 18pt (body-lg) |
+| **Font Size** | `{typography.body-md.fontSize}` | `{typography.body-lg.fontSize}` |
