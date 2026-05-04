@@ -1,6 +1,6 @@
 # Accessibility and Plain Language Prompt Toolkit
 
-A toolkit for producing accessible content by translating complex or technical text into two clear formats: Plain Language and Easy Read. This project provides a system prompt, design guidance, and examples to help writers, editors, and AI systems produce materials that are easier to understand and more accessible to people with diverse cognitive and reading needs.
+A toolkit for producing accessible content by translating complex or technical text into two clear formats: Plain Language and Easy Read. This project provides a system prompt, design guidance, and examples to help writers and AI systems produce accessible, reader-centered content.
 
 ## Overview
 
@@ -8,16 +8,17 @@ Accessibility in writing is a civil right. This toolkit defines standards and a 
 
 Two levels of output are supported:
 
-1. Plain Language (Primary): Clear, direct communication for a general audience (approximately 6th–8th grade reading level). This format is suitable for general documentation, product copy, and user instructions where readers are expected to follow procedures or learn information.
-2. Easy Read (Alternative): Highly structured communication intended for people with intellectual and developmental disabilities (IDD) and other readers who benefit from literal wording, short sentences, and strong visual structure. Easy Read focuses on one idea per sentence, visual anchors (icons or images), and a glossary of "Words to Know" for any necessary technical terms.
+1. Plain Language (Primary): Clear, direct communication for a general audience (approximately 6th–8th grade reading level). This format is suitable for general documentation, product copy, and instructional content.
+2. Easy Read (Alternative): Highly structured communication intended for people with intellectual and developmental disabilities (IDD) and other readers who benefit from literal wording, short sentences, and visual anchors.
 
 This prompt and guidance are compatible with plain-markdown workflows and were prepared using best-practice principles from disability advocacy groups and established design guidance.
 
 ## What's in this repository
 
-- [a11y-plain-language-v1.txt](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/7b7596f22c8dce22a69bfc71b7caa772664ff021/a11y-plain-language-v1.txt) — The system prompt file. Copy this into a model's system instructions to apply the transformations defined in this toolkit.
+- [a11y-plain-language-v1.txt](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/a11y-plain-language-v1.txt) — The system prompt file used by AI and human workflows.
+- [docs/a11y-plain-language-v1.md](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/docs/a11y-plain-language-v1.md) — Rendered copy of the system prompt for GitHub Pages.
 - README.md — This file (documentation and usage guidance).
-- DESIGN.md — Design system specifying colors, typography, spacing, layout rules, and guidelines for Plain Language and Easy Read formats. See [DESIGN.md](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/DESIGN.md) for full details.
+- DESIGN.md — Design system specifying colors, typography, spacing, layout rules, and guidelines for Plain Language and Easy Read formats. See [DESIGN.md](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/DESIGN.md).
 - examples/ — Example inputs and outputs demonstrating how to translate text into Plain Language and Easy Read formats.
 
 ---
