@@ -74,8 +74,8 @@ Contributions are welcome. Please open an issue describing your proposed changes
 ## About & Credits
 
 This project adapted principles from:
-- Autistic Self Advocacy Network (ASAN) — guidance on Easy Read and one-idea-per-line principles.
-- google/design.md — style and markdown linting guidance for high-clarity documentation.
+- [Autistic Self Advocacy Network (ASAN)](https://autisticadvocacy.org/resources/accessibility/easyread/) — guidance on Easy Read and one-idea-per-line principles.
+- [google/design.md](https://github.com/google-labs-code/design.md.git) — style and markdown linting guidance for high-clarity documentation.
 
 Contributors
 - jscott5811 — repository owner and primary author
