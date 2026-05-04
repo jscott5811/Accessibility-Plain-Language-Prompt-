@@ -4,11 +4,11 @@ title: "a11y-plain-language-v1 — Accessibility & Plain Language"
 
 <link rel="stylesheet" href="https://raw.githubusercontent.com/jscott5811/Accessibility-Plain-Language-Prompt-/main/docs/assets/open-sans.css">
 
-# a11y-plain-language-v1.txt
+# a11y-plain-language-v1.md
 
 This page publishes the repository's system prompt file so it is viewable on GitHub Pages.
 
-- Source file: [a11y-plain-language-v1.txt](../blob/main/a11y-plain-language-v1.txt)
+- Source file: [a11y-plain-language-v1.txt](../blob/main/a11y-plain-language-v1.md)
 
 ---
 
