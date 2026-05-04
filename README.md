@@ -15,7 +15,7 @@ This prompt and guidance are compatible with plain-markdown workflows and were p
 
 ## What's in this repository
 
-- [a11y-plain-language-v1.txt](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/a11y-plain-language-v1.txt) — The system prompt file used by AI and human workflows.
+- [a11y-plain-language-v1.md](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/a11y-plain-language-v1.md) — The system prompt file used by AI and human workflows.
 - [docs/a11y-plain-language-v1.md](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/docs/a11y-plain-language-v1.md) — Rendered copy of the system prompt for GitHub Pages.
 - README.md — This file (documentation and usage guidance).
 - DESIGN.md — Design system specifying colors, typography, spacing, layout rules, and guidelines for Plain Language and Easy Read formats. See [DESIGN.md](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/DESIGN.md).
