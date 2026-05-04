@@ -1,6 +1,6 @@
 # Accessibility and Plain Language Prompt Toolkit
 
-A toolkit for producing accessible content by translating complex text into two clear formats: Plain Language and Easy Read. Designed to help writers, editors, and AI systems produce materials that are easier to understand on the first read.
+A toolkit for producing accessible content by translating complex text into two clear formats: Plain Language and Easy Read. Designed to help writers, editors, and AI systems produce materials that[...]
 
 ## Overview
 
@@ -9,15 +9,16 @@ Accessibility in writing is a civil right. This toolkit defines standards and a 
 Two levels of output are supported:
 
 1. Plain Language (Primary): Clear, direct communication for a general audience (approx. 6th–8th grade reading level). Suitable for general documentation, product copy, and user instructions.
-2. Easy Read (Alternative): Highly structured communication for people with intellectual and developmental disabilities (IDD). Focuses on literal meaning, short sentences, visual anchors, and a "Words to Know" glossary (approx. 3rd–5th grade reading level).
+2. Easy Read (Alternative): Highly structured communication for people with intellectual and developmental disabilities (IDD). Focuses on literal meaning, short sentences, visual anchors, and a "W[...]
 
 This prompt is compatible with plain-markdown workflows and was prepared with principles from ASAN and the google/design.md guidance in mind.
 
 ## What's in this repository
 
-- [a11y-plain-language-v1.txt](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/7b7596f22c8dce22a69bfc71b7caa772664ff021/a11y-plain-language-v1.txt) — The system prompt file (copy this into the "System Instructions" or your LLM's custom instruction area).
-- README.md — This file 
+- [a11y-plain-language-v1.txt](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/7b7596f22c8dce22a69bfc71b7caa772664ff021/a11y-plain-language-v1.txt) — The system prompt fi[...]
+- README.md — This file
 - examples/ — Example inputs and outputs
+- [DESIGN.md](https://github.com/jscott5811/Accessibility-Plain-Language-Prompt-/blob/main/DESIGN.md) — Design system specifying colors, typography, spacing, layout rules, and guidelines for Plain Language and Easy Read formats. See DESIGN.md for full details.
 ---
 name: Accessibility & Plain Language Prompt Toolkit
 
