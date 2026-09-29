@@ -1,3 +1,5 @@
+> **This repo has moved.** Active development continues in [a11y-plain-language-toolkit-site](https://github.com/jscott5811/a11y-plain-language-toolkit-site). This repository is kept for reference.
+
 # Accessibility and Plain Language Prompt Toolkit
 
 A toolkit for producing accessible content by translating complex or technical text into two clear formats: Plain Language and Easy Read. This project provides a system prompt, design guidance, and examples to help writers and AI systems produce accessible, reader-centered content.
